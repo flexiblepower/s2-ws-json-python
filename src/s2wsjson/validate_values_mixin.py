@@ -5,7 +5,6 @@ import pydantic.main
 
 from s2wsjson.s2_validation_error import S2ValidationError
 
-
 B = TypeVar('B', bound=BaseModel, covariant=True)
 
 
